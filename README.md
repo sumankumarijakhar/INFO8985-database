@@ -1,5 +1,4 @@
-# signoz
-signoz demo with docker-compose 
+lcbo database with signoz demo
 
 ```bash
 ansible-playbook up.yml

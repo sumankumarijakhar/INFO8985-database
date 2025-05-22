@@ -4,7 +4,7 @@
   tasks:
     - name: docker compose down
       community.docker.docker_compose_v2:
-        project_src: clickhouse-setup
+        project_src: .
         files:
-        - docker-compose-minimal.yaml
+        - docker-compose.yml
         state: absent
